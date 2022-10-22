@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A53F29048D1100DB606E /* _022_REMiApp.swift */; };
+		7212A54229048D1100DB606E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A54129048D1100DB606E /* ContentView.swift */; };
+		7212A54429048D1200DB606E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7212A54329048D1200DB606E /* Assets.xcassets */; };
+		7212A54729048D1200DB606E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7212A54629048D1200DB606E /* Preview Assets.xcassets */; };
+		7212A55129048D1200DB606E /* _022_REMiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55029048D1200DB606E /* _022_REMiTests.swift */; };
+		7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55A29048D1200DB606E /* _022_REMiUITests.swift */; };
+		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7212A54D29048D1200DB606E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7212A53429048D1100DB606E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7212A53B29048D1100DB606E;
+			remoteInfo = 2022_REMi;
+		};
+		7212A55729048D1200DB606E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7212A53429048D1100DB606E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7212A53B29048D1100DB606E;
+			remoteInfo = 2022_REMi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7212A53C29048D1100DB606E /* 2022_REMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2022_REMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7212A53F29048D1100DB606E /* _022_REMiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiApp.swift; sourceTree = "<group>"; };
+		7212A54129048D1100DB606E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7212A54329048D1200DB606E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7212A54629048D1200DB606E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7212A54C29048D1200DB606E /* 2022_REMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2022_REMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7212A55029048D1200DB606E /* _022_REMiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiTests.swift; sourceTree = "<group>"; };
+		7212A55629048D1200DB606E /* 2022_REMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2022_REMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7212A55A29048D1200DB606E /* _022_REMiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITests.swift; sourceTree = "<group>"; };
+		7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7212A53929048D1100DB606E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A54929048D1200DB606E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A55329048D1200DB606E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7212A53329048D1100DB606E = {
+			isa = PBXGroup;
+			children = (
+				7212A53E29048D1100DB606E /* 2022_REMi */,
+				7212A54F29048D1200DB606E /* 2022_REMiTests */,
+				7212A55929048D1200DB606E /* 2022_REMiUITests */,
+				7212A53D29048D1100DB606E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7212A53D29048D1100DB606E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7212A53C29048D1100DB606E /* 2022_REMi.app */,
+				7212A54C29048D1200DB606E /* 2022_REMiTests.xctest */,
+				7212A55629048D1200DB606E /* 2022_REMiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7212A53E29048D1100DB606E /* 2022_REMi */ = {
+			isa = PBXGroup;
+			children = (
+				7212A53F29048D1100DB606E /* _022_REMiApp.swift */,
+				7212A54129048D1100DB606E /* ContentView.swift */,
+				7212A54329048D1200DB606E /* Assets.xcassets */,
+				7212A54529048D1200DB606E /* Preview Content */,
+			);
+			path = 2022_REMi;
+			sourceTree = "<group>";
+		};
+		7212A54529048D1200DB606E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7212A54629048D1200DB606E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7212A54F29048D1200DB606E /* 2022_REMiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7212A55029048D1200DB606E /* _022_REMiTests.swift */,
+			);
+			path = 2022_REMiTests;
+			sourceTree = "<group>";
+		};
+		7212A55929048D1200DB606E /* 2022_REMiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7212A55A29048D1200DB606E /* _022_REMiUITests.swift */,
+				7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */,
+			);
+			path = 2022_REMiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7212A53B29048D1100DB606E /* 2022_REMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7212A56029048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMi" */;
+			buildPhases = (
+				7212A53829048D1100DB606E /* Sources */,
+				7212A53929048D1100DB606E /* Frameworks */,
+				7212A53A29048D1100DB606E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2022_REMi;
+			productName = 2022_REMi;
+			productReference = 7212A53C29048D1100DB606E /* 2022_REMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7212A54B29048D1200DB606E /* 2022_REMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7212A56329048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMiTests" */;
+			buildPhases = (
+				7212A54829048D1200DB606E /* Sources */,
+				7212A54929048D1200DB606E /* Frameworks */,
+				7212A54A29048D1200DB606E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7212A54E29048D1200DB606E /* PBXTargetDependency */,
+			);
+			name = 2022_REMiTests;
+			productName = 2022_REMiTests;
+			productReference = 7212A54C29048D1200DB606E /* 2022_REMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7212A55529048D1200DB606E /* 2022_REMiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7212A56629048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMiUITests" */;
+			buildPhases = (
+				7212A55229048D1200DB606E /* Sources */,
+				7212A55329048D1200DB606E /* Frameworks */,
+				7212A55429048D1200DB606E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7212A55829048D1200DB606E /* PBXTargetDependency */,
+			);
+			name = 2022_REMiUITests;
+			productName = 2022_REMiUITests;
+			productReference = 7212A55629048D1200DB606E /* 2022_REMiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7212A53429048D1100DB606E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7212A53B29048D1100DB606E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7212A54B29048D1200DB606E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7212A53B29048D1100DB606E;
+					};
+					7212A55529048D1200DB606E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7212A53B29048D1100DB606E;
+					};
+				};
+			};
+			buildConfigurationList = 7212A53729048D1100DB606E /* Build configuration list for PBXProject "2022_REMi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7212A53329048D1100DB606E;
+			productRefGroup = 7212A53D29048D1100DB606E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7212A53B29048D1100DB606E /* 2022_REMi */,
+				7212A54B29048D1200DB606E /* 2022_REMiTests */,
+				7212A55529048D1200DB606E /* 2022_REMiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7212A53A29048D1100DB606E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7212A54729048D1200DB606E /* Preview Assets.xcassets in Resources */,
+				7212A54429048D1200DB606E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A54A29048D1200DB606E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A55429048D1200DB606E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7212A53829048D1100DB606E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
+				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A54829048D1200DB606E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7212A55129048D1200DB606E /* _022_REMiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7212A55229048D1200DB606E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */,
+				7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7212A54E29048D1200DB606E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7212A53B29048D1100DB606E /* 2022_REMi */;
+			targetProxy = 7212A54D29048D1200DB606E /* PBXContainerItemProxy */;
+		};
+		7212A55829048D1200DB606E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7212A53B29048D1100DB606E /* 2022_REMi */;
+			targetProxy = 7212A55729048D1200DB606E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7212A55E29048D1200DB606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7212A55F29048D1200DB606E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7212A56129048D1200DB606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7212A56229048D1200DB606E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7212A56429048D1200DB606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2022_REMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2022_REMi";
+			};
+			name = Debug;
+		};
+		7212A56529048D1200DB606E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2022_REMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2022_REMi";
+			};
+			name = Release;
+		};
+		7212A56729048D1200DB606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2022_REMi;
+			};
+			name = Debug;
+		};
+		7212A56829048D1200DB606E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RemiDubHacks.-022-REMiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2022_REMi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7212A53729048D1100DB606E /* Build configuration list for PBXProject "2022_REMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7212A55E29048D1200DB606E /* Debug */,
+				7212A55F29048D1200DB606E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7212A56029048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7212A56129048D1200DB606E /* Debug */,
+				7212A56229048D1200DB606E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7212A56329048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7212A56429048D1200DB606E /* Debug */,
+				7212A56529048D1200DB606E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7212A56629048D1200DB606E /* Build configuration list for PBXNativeTarget "2022_REMiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7212A56729048D1200DB606E /* Debug */,
+				7212A56829048D1200DB606E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7212A53429048D1100DB606E /* Project object */;
+}
