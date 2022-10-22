@@ -14,6 +14,9 @@
 		7212A55129048D1200DB606E /* _022_REMiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55029048D1200DB606E /* _022_REMiTests.swift */; };
 		7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55A29048D1200DB606E /* _022_REMiUITests.swift */; };
 		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
+		721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FA2904B74200971A8E /* AppDelegate.swift */; };
+		721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FD2904B83200971A8E /* UIViewController.swift */; };
+		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		7212A55629048D1200DB606E /* 2022_REMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2022_REMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7212A55A29048D1200DB606E /* _022_REMiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITests.swift; sourceTree = "<group>"; };
 		7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		721EF6FA2904B74200971A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2022_REMi.entitlements; sourceTree = "<group>"; };
+		721EF6FD2904B83200971A8E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +101,11 @@
 		7212A53E29048D1100DB606E /* 2022_REMi */ = {
 			isa = PBXGroup;
 			children = (
+				721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */,
 				7212A53F29048D1100DB606E /* _022_REMiApp.swift */,
+				721EF6FA2904B74200971A8E /* AppDelegate.swift */,
+				721EF6FD2904B83200971A8E /* UIViewController.swift */,
+				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
 				7212A54529048D1200DB606E /* Preview Content */,
@@ -257,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */,
 				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
+				721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */,
+				721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */,
 				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +428,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 2022_REMi/2022_REMi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write simulated heart data to HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read simulated heart rate data from HealthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,11 +459,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 2022_REMi/2022_REMi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write simulated heart data to HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read simulated heart rate data from HealthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
