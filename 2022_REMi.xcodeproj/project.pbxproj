@@ -18,7 +18,6 @@
 		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
 		721EF7082904D08600971A8E /* UI Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF7072904D08600971A8E /* UI Controller.swift */; };
 		726B64202904E43A006A2DFF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B641F2904E43A006A2DFF /* SwiftUIView.swift */; };
-		726B64222904E6B2006A2DFF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B64212904E6B2006A2DFF /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		721EF7072904D08600971A8E /* UI Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Controller.swift"; sourceTree = "<group>"; };
 		721EF7092904D26600971A8E /* -022-REMi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-022-REMi-Info.plist"; sourceTree = SOURCE_ROOT; };
 		726B641F2904E43A006A2DFF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		726B64212904E6B2006A2DFF /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
 				726B641F2904E43A006A2DFF /* SwiftUIView.swift */,
-				726B64212904E6B2006A2DFF /* Storyboard.storyboard */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
 				7212A54529048D1200DB606E /* Preview Content */,
 			);
@@ -252,7 +249,6 @@
 			files = (
 				7212A54729048D1200DB606E /* Preview Assets.xcassets in Resources */,
 				7212A54429048D1200DB606E /* Assets.xcassets in Resources */,
-				726B64222904E6B2006A2DFF /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
