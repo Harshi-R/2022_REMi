@@ -89,7 +89,7 @@ struct WelcomeView: View {
                                             .imageScale(.medium)
                                             .font(.system(size: 30, weight: .bold, design: .default))
                                            // .padding(.bottom, 5)
-                                        NavigationLink(destination: AlarmView()) {
+                                        NavigationLink(destination: StatsView()) {
                                             Text("Sleep")
                                                 .font(.headline.weight(.semibold))
                                                 .padding(.trailing, 14)

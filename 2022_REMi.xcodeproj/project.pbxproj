@@ -16,10 +16,10 @@
 		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
 		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
 		7263C9F4290595A600559FDB /* Sleep Cycle Graph in Resources */ = {isa = PBXBuildFile; fileRef = 7263C9F3290595A600559FDB /* Sleep Cycle Graph */; };
-		726B642829050F8C006A2DFF /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642729050F8C006A2DFF /* Stats.swift */; };
 		726B642A29053A98006A2DFF /* AutoStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642929053A98006A2DFF /* AutoStop.swift */; };
 		726B642E29053AD1006A2DFF /* SleepTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642D29053AD1006A2DFF /* SleepTips.swift */; };
 		726B643029053E19006A2DFF /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642F29053E19006A2DFF /* Alarm.swift */; };
+		72EDAEAD2905C2C600E8C5E0 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EDAEAC2905C2C600E8C5E0 /* Stats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
 		721EF7092904D26600971A8E /* -022-REMi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-022-REMi-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7263C9F3290595A600559FDB /* Sleep Cycle Graph */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sleep Cycle Graph"; path = "../../Sleep Cycle Graph"; sourceTree = "<group>"; };
-		726B642729050F8C006A2DFF /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		726B642929053A98006A2DFF /* AutoStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoStop.swift; sourceTree = "<group>"; };
 		726B642D29053AD1006A2DFF /* SleepTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTips.swift; sourceTree = "<group>"; };
 		726B642F29053E19006A2DFF /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		72EDAEAC2905C2C600E8C5E0 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
 				726B642F29053E19006A2DFF /* Alarm.swift */,
-				726B642729050F8C006A2DFF /* Stats.swift */,
+				72EDAEAC2905C2C600E8C5E0 /* Stats.swift */,
 				726B642929053A98006A2DFF /* AutoStop.swift */,
 				726B642D29053AD1006A2DFF /* SleepTips.swift */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
@@ -283,9 +283,9 @@
 				726B642E29053AD1006A2DFF /* SleepTips.swift in Sources */,
 				726B643029053E19006A2DFF /* Alarm.swift in Sources */,
 				726B642A29053A98006A2DFF /* AutoStop.swift in Sources */,
+				72EDAEAD2905C2C600E8C5E0 /* Stats.swift in Sources */,
 				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
 				721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */,
-				726B642829050F8C006A2DFF /* Stats.swift in Sources */,
 				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +507,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -526,7 +525,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
