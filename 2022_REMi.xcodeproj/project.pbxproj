@@ -14,10 +14,12 @@
 		7212A55129048D1200DB606E /* _022_REMiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55029048D1200DB606E /* _022_REMiTests.swift */; };
 		7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55A29048D1200DB606E /* _022_REMiUITests.swift */; };
 		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
-		721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FA2904B74200971A8E /* AppDelegate.swift */; };
 		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
-		721EF7082904D08600971A8E /* UI Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF7072904D08600971A8E /* UI Controller.swift */; };
-		726B64202904E43A006A2DFF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B641F2904E43A006A2DFF /* SwiftUIView.swift */; };
+		7263C9F4290595A600559FDB /* Sleep Cycle Graph in Resources */ = {isa = PBXBuildFile; fileRef = 7263C9F3290595A600559FDB /* Sleep Cycle Graph */; };
+		726B642829050F8C006A2DFF /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642729050F8C006A2DFF /* Stats.swift */; };
+		726B642A29053A98006A2DFF /* AutoStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642929053A98006A2DFF /* AutoStop.swift */; };
+		726B642E29053AD1006A2DFF /* SleepTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642D29053AD1006A2DFF /* SleepTips.swift */; };
+		726B643029053E19006A2DFF /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B642F29053E19006A2DFF /* Alarm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +50,14 @@
 		7212A55629048D1200DB606E /* 2022_REMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2022_REMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7212A55A29048D1200DB606E /* _022_REMiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITests.swift; sourceTree = "<group>"; };
 		7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		721EF6FA2904B74200971A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2022_REMi.entitlements; sourceTree = "<group>"; };
 		721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
-		721EF7072904D08600971A8E /* UI Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Controller.swift"; sourceTree = "<group>"; };
 		721EF7092904D26600971A8E /* -022-REMi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-022-REMi-Info.plist"; sourceTree = SOURCE_ROOT; };
-		726B641F2904E43A006A2DFF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		7263C9F3290595A600559FDB /* Sleep Cycle Graph */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sleep Cycle Graph"; path = "../../Sleep Cycle Graph"; sourceTree = "<group>"; };
+		726B642729050F8C006A2DFF /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		726B642929053A98006A2DFF /* AutoStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoStop.swift; sourceTree = "<group>"; };
+		726B642D29053AD1006A2DFF /* SleepTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTips.swift; sourceTree = "<group>"; };
+		726B642F29053E19006A2DFF /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +111,14 @@
 				721EF7092904D26600971A8E /* -022-REMi-Info.plist */,
 				721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */,
 				7212A53F29048D1100DB606E /* _022_REMiApp.swift */,
-				721EF6FA2904B74200971A8E /* AppDelegate.swift */,
-				721EF7072904D08600971A8E /* UI Controller.swift */,
 				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
-				726B641F2904E43A006A2DFF /* SwiftUIView.swift */,
+				726B642F29053E19006A2DFF /* Alarm.swift */,
+				726B642729050F8C006A2DFF /* Stats.swift */,
+				726B642929053A98006A2DFF /* AutoStop.swift */,
+				726B642D29053AD1006A2DFF /* SleepTips.swift */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
+				7263C9F3290595A600559FDB /* Sleep Cycle Graph */,
 				7212A54529048D1200DB606E /* Preview Content */,
 			);
 			path = 2022_REMi;
@@ -248,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7212A54729048D1200DB606E /* Preview Assets.xcassets in Resources */,
+				7263C9F4290595A600559FDB /* Sleep Cycle Graph in Resources */,
 				7212A54429048D1200DB606E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,11 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */,
-				721EF7082904D08600971A8E /* UI Controller.swift in Sources */,
-				726B64202904E43A006A2DFF /* SwiftUIView.swift in Sources */,
+				726B642E29053AD1006A2DFF /* SleepTips.swift in Sources */,
+				726B643029053E19006A2DFF /* Alarm.swift in Sources */,
+				726B642A29053A98006A2DFF /* AutoStop.swift in Sources */,
 				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
 				721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */,
+				726B642829050F8C006A2DFF /* Stats.swift in Sources */,
 				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ88T93HDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "-022-REMi-Info.plist";
@@ -470,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ88T93HDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "-022-REMi-Info.plist";
