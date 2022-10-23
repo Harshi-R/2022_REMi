@@ -6,11 +6,16 @@
 //
 
 import SwiftUI
+import UIKit
+import HealthKit
 
+@main
 struct _022_REMiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
+    
+    
 }

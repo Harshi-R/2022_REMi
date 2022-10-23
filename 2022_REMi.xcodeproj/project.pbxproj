@@ -15,8 +15,10 @@
 		7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55A29048D1200DB606E /* _022_REMiUITests.swift */; };
 		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
 		721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FA2904B74200971A8E /* AppDelegate.swift */; };
-		721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FD2904B83200971A8E /* UIViewController.swift */; };
 		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
+		721EF7082904D08600971A8E /* UI Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF7072904D08600971A8E /* UI Controller.swift */; };
+		726B64202904E43A006A2DFF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B641F2904E43A006A2DFF /* SwiftUIView.swift */; };
+		726B64222904E6B2006A2DFF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B64212904E6B2006A2DFF /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +51,11 @@
 		7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		721EF6FA2904B74200971A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2022_REMi.entitlements; sourceTree = "<group>"; };
-		721EF6FD2904B83200971A8E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
+		721EF7072904D08600971A8E /* UI Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Controller.swift"; sourceTree = "<group>"; };
+		721EF7092904D26600971A8E /* -022-REMi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-022-REMi-Info.plist"; sourceTree = SOURCE_ROOT; };
+		726B641F2904E43A006A2DFF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		726B64212904E6B2006A2DFF /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +106,15 @@
 		7212A53E29048D1100DB606E /* 2022_REMi */ = {
 			isa = PBXGroup;
 			children = (
+				721EF7092904D26600971A8E /* -022-REMi-Info.plist */,
 				721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */,
 				7212A53F29048D1100DB606E /* _022_REMiApp.swift */,
 				721EF6FA2904B74200971A8E /* AppDelegate.swift */,
-				721EF6FD2904B83200971A8E /* UIViewController.swift */,
+				721EF7072904D08600971A8E /* UI Controller.swift */,
 				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
+				726B641F2904E43A006A2DFF /* SwiftUIView.swift */,
+				726B64212904E6B2006A2DFF /* Storyboard.storyboard */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
 				7212A54529048D1200DB606E /* Preview Content */,
 			);
@@ -244,6 +252,7 @@
 			files = (
 				7212A54729048D1200DB606E /* Preview Assets.xcassets in Resources */,
 				7212A54429048D1200DB606E /* Assets.xcassets in Resources */,
+				726B64222904E6B2006A2DFF /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */,
+				721EF7082904D08600971A8E /* UI Controller.swift in Sources */,
+				726B64202904E43A006A2DFF /* SwiftUIView.swift in Sources */,
 				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
 				721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */,
-				721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */,
 				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +444,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write simulated heart data to HealthKit";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read simulated heart rate data from HealthKit";
+				INFOPLIST_FILE = "-022-REMi-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write sleep analysis data to HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read sleep analysis data from HealthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,8 +476,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"2022_REMi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write simulated heart data to HealthKit";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read simulated heart rate data from HealthKit";
+				INFOPLIST_FILE = "-022-REMi-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app would like to write sleep analysis data to HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app would like to read sleep analysis data from HealthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

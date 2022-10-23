@@ -5,10 +5,12 @@ Abstract:
 An app delegate that requests permission to read and share heart rate, heart beat, and heart rate variability data.
 */
 
+
 import UIKit
 import HealthKit
 
-@UIApplicationMain
+
+//@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -32,15 +34,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Create the heart rate and heartbeat type identifiers.
-        let sleepCategory : Set = [HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)!]
+        let sleepCategory : Set = [HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.appleStandHour)!]
         
+        print("Requesting HealthKit authorization to read Sleep Data")
         // Request permission to read and write heart rate and heartbeat data.
         healthStore.requestAuthorization(toShare: sleepCategory, read: sleepCategory) { (success, error) in
             print("Request Authorization -- Success: ", success, " Error: ", error ?? "nil")
-            // Handle authorization errors here.
+            
         }
-        
         return true
     }
+    
 }
 
+
+   
