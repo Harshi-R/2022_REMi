@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Create the heart rate and heartbeat type identifiers.
-        let sleepCategory : Set = [HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)]
+        let sleepCategory : Set = [HKObjectType.categoryType(forIdentifier: HKCategoryTypeIdentifier.sleepAnalysis)!]
         
         // Request permission to read and write heart rate and heartbeat data.
         healthStore.requestAuthorization(toShare: sleepCategory, read: sleepCategory) { (success, error) in

@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct _022_REMiApp: App {
     var body: some Scene {
         WindowGroup {
