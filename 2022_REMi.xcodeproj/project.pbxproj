@@ -15,8 +15,8 @@
 		7212A55B29048D1200DB606E /* _022_REMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55A29048D1200DB606E /* _022_REMiUITests.swift */; };
 		7212A55D29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */; };
 		721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FA2904B74200971A8E /* AppDelegate.swift */; };
-		721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FD2904B83200971A8E /* UIViewController.swift */; };
 		721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */; };
+		721EF7042904CB7B00971A8E /* UI Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EF7032904CB7B00971A8E /* UI Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		7212A55C29048D1200DB606E /* _022_REMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _022_REMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		721EF6FA2904B74200971A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2022_REMi.entitlements; sourceTree = "<group>"; };
-		721EF6FD2904B83200971A8E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
+		721EF7032904CB7B00971A8E /* UI Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				721EF6FC2904B7CB00971A8E /* 2022_REMi.entitlements */,
 				7212A53F29048D1100DB606E /* _022_REMiApp.swift */,
 				721EF6FA2904B74200971A8E /* AppDelegate.swift */,
-				721EF6FD2904B83200971A8E /* UIViewController.swift */,
+				721EF7032904CB7B00971A8E /* UI Controller.swift */,
 				721EF6FF2904B85600971A8E /* HealthStoreContainer.swift */,
 				7212A54129048D1100DB606E /* ContentView.swift */,
 				7212A54329048D1200DB606E /* Assets.xcassets */,
@@ -269,9 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				721EF6FB2904B74200971A8E /* AppDelegate.swift in Sources */,
+				721EF7042904CB7B00971A8E /* UI Controller.swift in Sources */,
 				7212A54229048D1100DB606E /* ContentView.swift in Sources */,
 				721EF7002904B85600971A8E /* HealthStoreContainer.swift in Sources */,
-				721EF6FE2904B83200971A8E /* UIViewController.swift in Sources */,
 				7212A54029048D1100DB606E /* _022_REMiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
