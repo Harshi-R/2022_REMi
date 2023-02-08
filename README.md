@@ -1,7 +1,10 @@
 # REMi
-Timeline: 
+Major Milestones: 
 
-  End of Winter Quarter: Finish learning Swift UI basics
-
-
+  By March 17th: Finish learning Swift UI basics
+  March 20th: Start coding 
+  
+Frontend Timeline: 
+  
+  
 
