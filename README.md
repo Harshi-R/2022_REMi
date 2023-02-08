@@ -1,5 +1,5 @@
 # REMi Timeline
-Next Meeting: 
+Weekly Meetings: Wednesdays @ 2:00 pm PST 
 
 Major Milestones: 
 
@@ -7,6 +7,8 @@ Major Milestones:
   March 20th: Start coding 
   
 Frontend Timeline: 
+
+
   
-  
+Backend Timeline:  
 
