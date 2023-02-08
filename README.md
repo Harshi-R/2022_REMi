@@ -1,4 +1,4 @@
-# REMi
+# REMi Timeline
 Major Milestones: 
 
   By March 17th: Finish learning Swift UI basics
